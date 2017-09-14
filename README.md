@@ -1,2 +1,1 @@
-# demo-django
-Django练习
+# Django练习
