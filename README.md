@@ -1,2 +1,1 @@
-# demo-django
-Django练习
+# Django架站的16堂课
