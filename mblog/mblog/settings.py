@@ -25,7 +25,7 @@ SECRET_KEY = '_f^!aqy=(#%+k1p-o6xy6hy^c4mm%itg(cn6$jt0!7#!mg_r_7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['128.199.197.220',]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'mblog.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
